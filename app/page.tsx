@@ -1,14 +1,9 @@
 import CateTest from "@/components/CateTest";
 import Navbar from "../components/Navbar/Navbar";
-import Image from "next/image";
 import PostTest from "@/components/PostTest";
 
 export default function Home() {
-  const cat = {
-    name: "cat",
-    age: 2,
-    color: "black",
-  };
+
 
   return (
     <div>
