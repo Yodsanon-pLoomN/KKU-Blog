@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '../src/logo.svg';
+import Logo from '../../src/logo.svg';
 const logo = () => {
   return (
     <Image className=''

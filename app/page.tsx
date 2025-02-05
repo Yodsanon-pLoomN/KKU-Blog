@@ -1,13 +1,17 @@
-import CateTest from "@/components/CateTest";
-import Navbar from "../components/Navbar/Navbar";
-import PostTest from "@/components/PostTest";
+"use client"
+import CateTest from "@/app/components/CateTest";
+import Navbar from "./components/Navbar/Navbar";
+import PostTest from "@/app/components/PostTest";
+import { useState } from 'react'
+import { signIn } from 'next-auth/react'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
-
 
   return (
     <div>
       <Navbar />
+      
 
       <div className="container mx-auto my-10">
         Catelog
@@ -20,7 +24,7 @@ export default function Home() {
           <CateTest />
           <CateTest />
           <CateTest />
-          <CateTest />wdwdwdwdwdwdwdw
+          <CateTest />
           <CateTest />
         </div>
       </div>
